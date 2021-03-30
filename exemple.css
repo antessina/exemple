@@ -1,0 +1,144 @@
+body{
+    font-family: sans-serif;
+}
+.header{
+
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px;
+    
+}
+.logo svg{
+    margin-right: 3%;
+    width: 23px;
+}
+
+.menu{
+    
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3%;
+}
+
+/*---------------------------------partie presentation text----------------------------------*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+.main p{
+    width: 30%;
+    text-align: center;
+    min-width: 265px;
+    color: rgb(88, 90, 90);
+}
+
+.main button{
+    width: 150px;
+    padding: 4%;
+    
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.btn1{
+    background: rgb(44, 147, 243);
+}
+.btn2{
+    background: rgb(80, 82, 81);
+}
+/*----------container-----------------*/
+
+.container{
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 400px;
+    border-radius: 6px;
+    margin-right: 4%;
+    margin-top: 5%;
+    margin-left: 3%;
+    box-shadow: 2px 2px 12px grey;
+}
+.haut img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.haut{
+    height: 303px;
+    overflow: hidden;
+}
+.text, .view{
+    padding: 5%;
+}
+
+.view{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(53, 52, 52);
+    
+}
+
+.viewbutton{
+    display: flex;
+
+}
+
+.viewbutton button{
+    padding: 10%;
+    color: grey;
+    background: white;
+    border: 1.5px solid grey;
+}
+
+.btnview{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.btnedit{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.viewbutton button:hover{
+    background: grey;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
